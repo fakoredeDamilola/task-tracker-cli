@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Buy Grocies",
+    "status": "todo",
+    "date": "2024-09-12T11:42:21.622Z"
+  },
+  {
+    "id": 2,
+    "name": "watch",
+    "status": "in-progress",
+    "description": "this",
+    "createdAt": "2024-09-12T12:07:41.459Z",
+    "updatedAt": "2024-09-12T12:07:41.464Z"
+  }
+]

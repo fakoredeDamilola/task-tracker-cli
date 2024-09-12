@@ -1,0 +1,26 @@
+{
+  "name": "task-tracker-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "task-cli": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc --w",
+    "prelink": "(npm unlink task-tracker-cli || true)",
+    "link": "chmod +x ./dist/index.js && npm link"
+  },
+  "keywords": [],
+  "author": "Fakorede Dayo",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@types/node": "^22.5.4",
+    "jest": "^29.7.0",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
